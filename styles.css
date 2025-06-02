@@ -2,6 +2,9 @@ Body {
     background-color: #D3E5FF;
 }
 
+
+
+
 img {
     margin-left: 26.5em;
     margin-top:6em;
@@ -10,10 +13,23 @@ img {
 Button {
     font-size: 50pt;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 1em;
     margin-left: 8.5em;
-    border: none;
-    background-color: #D3E5FF;
+    border: none;   
+    background-color: #d3e5ff00;
+    font-family: "pressio", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+.Map {
+    font-size: 50pt;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 8.5em;
+    border: none;   
+    background-color: #d3e5ff00;
+    font-family: "pressio", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
