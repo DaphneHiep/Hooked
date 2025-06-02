@@ -83,7 +83,7 @@ document.getElementById("upgrade-knop").addEventListener("click", function () {
         Visperklik = 2;
         upgraded = true;
 
-        VistellerDisplay.innerHTML = "<img src='Media/Vis.png' alt='Vis'>: " + Visteller;
+        VistellerDisplay.innerHTML = "<img src='Media/vis.png' alt='Vis'>: " + Visteller;
         knop.textContent = "Gekocht";
     }
 });
@@ -101,7 +101,7 @@ document.getElementById("upgrade-knop-2").addEventListener("click", function () 
         Visperklik = 5;
         upgraded = true;
 
-        VistellerDisplay.innerHTML = "<img src='Media/Vis.png' alt='Vis'>: " + Visteller;
+        VistellerDisplay.innerHTML = "<img src='Media/vis.png' alt='Vis'>: " + Visteller;
         knop2.textContent = "Gekocht";
     }
 });
@@ -114,7 +114,7 @@ document.getElementById("Autofarming").addEventListener("click", function () {
         Visteller -= 100;
         upgraded = true;
 
-        VistellerDisplay.innerHTML = "<img src='Media/Vis.png' alt='Vis'>: " + Visteller;
+        VistellerDisplay.innerHTML = "<img src='Media/vis.png' alt='Vis'>: " + Visteller;
         autofarmKnop.textContent = "Gekocht";
 
         // Start vis automatisch toevoegen elke 0.5 seconde
@@ -136,7 +136,7 @@ document.getElementById("map").addEventListener("click", function () {
             upgradegeluid.play();
 
             Visteller -= 200;
-            VistellerDisplay.innerHTML = "<img src='Media/Vis.png' alt='Vis'>: " + Visteller;
+            VistellerDisplay.innerHTML = "<img src='Media/vis.png' alt='Vis'>: " + Visteller;
 
             waterimg.src = "Media/Zeewaters.png";
             document.body.style.backgroundColor = "#FFD579";
